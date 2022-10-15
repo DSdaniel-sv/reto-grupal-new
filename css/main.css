@@ -178,8 +178,9 @@ a {
   margin-left: 30rem;
 }
 .avatar img{
-  border-radius: 50%;
+  border-radius: 100%;
   border: none;
+  border-right: 2rem solid #D1FFA2;
   box-shadow: 0px 5px 45px 0px green;
 }
 .face-twi{
