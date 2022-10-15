@@ -7,40 +7,47 @@
 .container{
   max-width: 960px;
   margin: auto;
-  background-color: gray;
+  background-color: white;
 }
 
 /* NAV */
 .header{
-  border: solid 2px black;
+  height: 30rem;
 }
 .header-nav{
-  border: solid yellow;
   display: inline-block;
   width: 100%;
-  height: 4em;
   display: flex;
   position: relative;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .cuadrados{
   display: flex;
-  border: solid red;
 }
 .nav-ul ul{
   display: flex;
   margin-right: 10px;
-  border: solid green;
 }
 .nav-ul ul li{
   margin-right: 20px;
   list-style: none;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
 }
 a {
   text-decoration: none;
 }
-
+.sobre-mi{
+  color: #832FDA;
+}
+.portafolio{
+  color: #00CF95;
+}
+.resto-3{
+  color: black;
+}
 .cuadrados{
   align-items: center;
   justify-content: center;
@@ -94,14 +101,12 @@ a {
 
 /* HEADER-CONTEN */
 .about{
-  margin: 1rem;
   display: flex;
   position: relative;
 }
 .about-me{
-  border: solid yellow;
   position: absolute;
-  left: 7rem;
+  left: 1rem;
   top: 2rem;
 }
 /* .barra{
@@ -112,19 +117,18 @@ a {
   background-color: green;
 } */
 .about-name {
-  border: solid yellow;
   position: absolute;
-  left: 7rem;
+  left: 1rem;
   top: 4rem;
+  font-family: 'Poppins';
+  font-style: normal;
 
 }
-
 .about-context{
-  border: solid yellow;
   position: absolute;
-  left: 7rem;
+  left: 2rem;
   top: 9rem;
-  margin-right: 31rem;
+  margin-right: 35rem;
 }
 .about-context p{
   font-family: 'Raleway';
@@ -134,13 +138,52 @@ a {
   line-height: 24px;
 }
 .btn-icons{
-  border: solid yellow;
   position: absolute;
-  left: 7rem;
+  left: 1rem;
   top: 16rem;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-left: .5rem;
+  padding-top: .5rem;
+}
+.btn-icons button{
+  justify-content: center;
+  color: white;
+  font-size: 13px;
+  background-color:#6D0AD3;
+  text-align: center;
+  padding: 1rem 2rem;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.btn-icons a{
+  justify-content: center;
+  align-items: center;
+  padding-left: .4rem;
 }
 .avatar{
-  border: solid yellow;
   display: flex;
+  margin-left: 30rem;
+}
+.face-twi{
+  display: inline-block;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+  padding-top: 3rem;
+}
+.down{
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  margin-top: 2rem;
   margin-left: 28rem;
+  text-align: center;
+}
+.down p{
+  color:#00CF95;
 }
