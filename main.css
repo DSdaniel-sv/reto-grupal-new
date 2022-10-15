@@ -39,3 +39,33 @@
 a {
   text-decoration: none;
 }
+
+.cuadrados{
+  display: flex;
+  position: relative;
+  width: 7rem;
+}
+.cuadrado-1{
+  width: 3rem;
+  height: 3rem;
+  background-color: black;
+  transform: rotate(135deg);
+}
+.cuadrado-2{
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  left: 1rem;
+  background-color: blue;
+  transform: rotate(135deg);
+}
+.cuadrado-3{
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  left: 2rem;
+  background-color: red;
+  transform: rotate(135deg);
+}
+
+@
