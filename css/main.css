@@ -103,6 +103,7 @@ a {
 .about{
   display: flex;
   position: relative;
+  flex-wrap: wrap;
 }
 .about-me{
   position: absolute;
