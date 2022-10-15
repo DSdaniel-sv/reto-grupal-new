@@ -76,8 +76,8 @@ a {
   position: absolute;
   width: 2rem;
   height: 2rem;
-  left: 1rem;
-  background-color: red;
+  left: 1.1rem;
+  background-color:#0098EF;
   transform: rotate(135deg);
 }
 .cuadrado-4{
