@@ -517,3 +517,124 @@ a {
   height: 3rem;
   width: 9rem;
 }
+
+
+
+
+
+
+/*FOOTER*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway'
+}
+/*:::::Pie de Pagina*/
+.pie-pagina{
+  width: 100%;
+  background-color: wh;
+}
+.pie-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:50px;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+  width: 20%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+  width: 60px;
+}
+.pie-pagina .grupo-1 .box h2{
+  color: #00CF95;
+  margin-bottom: 10px;
+  font-size: 32px;
+  text-align: center;
+}
+
+
+
+
+/*link redes*/
+
+
+.pie-pagina .grupo-1 .red-social a{
+  display: inline-block;
+  text-decoration: none;
+  width: 15px;
+  height: 5px;
+  left: 20px;
+  line-height: 25px;
+  color: rgb(255, 255, 255);
+  margin-right: 35px;
+  background-color: white;
+  border: solid;
+  text-align: center;
+  transition: all 300ms ease;
+}
+
+/*CIERRE REDES*/
+
+
+.pie-pagina .grupo-1 .red-social a:hover{
+  color: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.pie-pagina .grupo-2{
+  background-color: white;
+  padding: 15px 10px;
+  text-align: center;
+  color: black;
+}
+.pie-pagina .grupo-2 small{
+  font-size: 11px;
+}
+@media screen and (max-width:800px){
+  .pie-pagina .grupo-1{
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap:30px;
+      padding: 35px 0px;
+  }
+}
+
+.pie-pagina .grupo-1 .box nav a{
+
+position: absolute center;
+width: 385px;
+height: 16px;
+left: 583px;
+top: 610px;
+
+text-align: center;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 16px;
+}
+
+/*COLOR LETRAS FOOTER */
+
+.pie-pagina .grupo-1 .box nav a{
+margin-right: 15px;
+}
+
+.pie-pagina .grupo-1 .box .nav .a{
+color: #0098EF;
+background-color: #0098EF;
+}
