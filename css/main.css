@@ -26,12 +26,10 @@
   display: flex;
 }
 .nav-ul ul{
-  border: solid yellow;
   display: flex;
   margin-right: 10px;
 }
 .nav-ul ul li{
-  border: solid black;
   margin-right: 20px;
   list-style: none;
   font-family: 'Raleway';
